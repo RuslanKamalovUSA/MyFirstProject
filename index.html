@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                    <div class="profile">
+                        <img id="main-pic" src="pics/2.jpg" alt="avatar">
+                        <img id="bar" src="pics/bar.jpg">
+                        <p>Ruslan Kamalov</p>
+                        <p>Becoming an IT - professional</p>
+                    </div>
+                    <div class="section about">
+                        <div class="p-title">
+                            <p class="title">About</p>
+                        </div>
+                        <hr>
+                        <div class="p-title-two">
+                            <p>Hello Everyone! I moved to USA 12 years ago, from Miass, Chelyabinsk state, Russia. First coule years, i lived in Cape May, NJ. Than i moved to Key West, Fl for many years. And here i am, just moved to CA.</p>
+                        </div>  
+                    </div>
+                    <div class="section recentwork">
+                        <div class="p-title">
+                            <p class="title">Recent Work</p>
+                        </div>
+                        <hr>
+                        <div class="p-title-two">
+                            <ul>
+                                <li id="light">Whale adn Dolphins watcher boat crew</li>
+                                <li>Delivery deriver for Dominos</li>
+                                <li>Construction</li>
+                                <li>Bartender</li>
+                            </ul>
+                         </div>
+                    </div>
+                    <div class="section contact">
+                        <div class="p-title">
+                            <p class="title">Contact</p>
+                        </div>
+                        <hr>
+                        <div class="p-title-two">
+                            <div class="abuttons">
+                                <a href="https://twitter.com/?lang=ru">Twitter</a>
+                                <a href="https://www.facebook.com/">Facebook</a>
+                                <a href="https://www.google.com/search?q=instagram+login&sxsrf=ALiCzsZKiAMkfHwb2VxrKfz5krzxw5WhAw%3A1652545841056&ei=Mdl_YueJA67MkPIP_LSw0AQ&oq=in&gs_lcp=Cgdnd3Mtd2l6EAEYAzIECCMQJzIECCMQJzIECCMQJzIECAAQQzIFCAAQgAQyBQgAEIAEMgsILhCABBDHARDRAzIFCC4QgAQyCwguEIAEEMcBEKMCMgUIABCABDoHCCMQsAMQJzoHCAAQRxCwAzoHCAAQsAMQQzoSCC4QxwEQ0QMQyAMQsAMQQxgBOgwILhDIAxCwAxBDGAE6BggjECcQE0oECEEYAEoECEYYAVDUBljOCGCuGmgCcAB4AIABVYgBoAGSAQEymAEAoAEByAESwAEB2gEGCAEQARgI&sclient=gws-wiz">Instagram</a>
+                                <a href="https://www.linkedin.com/feed/">Linkedln</a>
+                                <a href="">Phone</a>
+                                <a href="https://Google.com">Email</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script>
+            const list = document.getElementById('light')
+            setInterval(function(){
+                if(list.style.color === '#C7E3F2'){
+                    list.style.color = 'yellow';
+                }else{
+                    list.style.color = 'white';    
+            }
+            }, 2000)
+        </script>
+    </body>
+</html>
